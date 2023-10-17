@@ -2,7 +2,7 @@
 Welcome to the artifact documentation for our paper, **E2Usd: Efficient-yet-effective Unsupervised State Detection for Multivariate Time Series**, submitted to the research tracks of The Web Conference 2024. This documentation outlines the steps required to reproduce our work.
 
 
-## Supplementary materials
+## Appendix
 Detailed dataset description, implementation details, impact assessment of the Energy-based
 Frequency Compressor, additional NMI results for component
 study and parameter sensitivity study can be found at [Supplemental Materials](Appendix.pdf). (downloading to local pdf viewer is recommended for better readability).
