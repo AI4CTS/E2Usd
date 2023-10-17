@@ -3,21 +3,18 @@ Welcome to the artifact documentation for our paper, **E2Usd: Efficient-yet-effe
 
 
 ## Appendix
-Detailed dataset description, implementation details, impact assessment of the Energy-based
-Frequency Compressor, additional NMI results for component
-study and parameter sensitivity study can be found at [Supplemental Materials](Appendix.pdf). (downloading to local pdf viewer is recommended for better readability).
+For a more comprehensive understanding of our work, including detailed dataset descriptions, implementation specifics, an impact assessment of the Energy-based Frequency Compressor, additional NMI results for component study, and parameter sensitivity study, please refer to the [Appendix](Appendix.pdf). We recommend downloading the PDF to a local viewer for better readability.
 
 ## Hardware information
-Experiments were conducted on a server with an NVIDIA Quadro RTX 8000 GPU and an Intel Xeon Gold 5215 CPU (2.50GHz).
-The MCU deployment uses an STM32H747 device with a 480 MHz Arm Cortex-M7 core, 2 MB Flash memory, and 1 MB RAM,
+Our experiments were conducted on a server equipped with an NVIDIA Quadro RTX 8000 GPU and an Intel Xeon Gold 5215 CPU (2.50GHz). For MCU deployment, we employed an STM32H747 device with a 480 MHz Arm Cortex-M7 core, 2 MB Flash memory, and 1 MB RAM.
 
 ## Library Dependencies
-We developed the code for experiments using Python 3.9.18, you can install the remaining dependencies using:
+To run our code, we developed it using Python 3.9.18. You can install the remaining dependencies by executing the following command:
 ```bash
 pip install -r requirements.txt
 ```
 ## Dataset Preparation
-We tested E2USD on five real-world Unsupervsied State Detection (USD) datasets and one synthetic dataset for comprehensive evaluations:
+We evaluated E2USD on five real-world Unsupervised State Detection (USD) datasets and one synthetic dataset for comprehensive assessments. You can download these datasets from the following links:
 
 
 | Dataset   | Type               | Download Link |
@@ -29,7 +26,8 @@ We tested E2USD on five real-world Unsupervsied State Detection (USD) datasets a
 | UcrSeg| Real-world | [download](https://drive.google.com/file/d/1nGH-l3tkp18SauzUUR6P0FhlhEQDLTu2/view?usp=sharing) |
 | Synthetic | Synthetic | [download](https://drive.google.com/file/d/1C6Pl58O-un4DUPdzqC9PKs09wQi8knYx/view?usp=sharing) |
 
-After downloading the datasets, move them to the '\data' directory. The directory structure should appear as follows:
+After downloading the datasets, move them to the '\data' directory, ensuring the following directory structure:
+
 
 ```
 .
@@ -66,10 +64,11 @@ After downloading the datasets, move them to the '\data' directory. The director
 │   │   ├── ...
 
 ```
-## How to Run
+## Training command
 
-run the train.py files in ./experiments directly for both training and testing.
+Execute the train.py script located in the ./experiments directory. Make sure to specify the dataset you want to use for the experiment within the main function.
 
-## Model for MCU deployment
+## MCU deployment models
 
-run the project files in ./MCU.
+For MCU deployment, transfer the files from ./MCU to the MCU device.
+
