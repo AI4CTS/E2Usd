@@ -1,4 +1,4 @@
-# WWW 2024 Artifact Submission - E2USD
+# E2USD Artifact Submission - WWW 2024
 Welcome to the artifact documentation for our paper, **E2Usd: Efficient-yet-effective Unsupervised State Detection for Multivariate Time Series**, submitted to the research tracks of The Web Conference 2024. This documentation outlines the steps required to reproduce our work.
 
 
