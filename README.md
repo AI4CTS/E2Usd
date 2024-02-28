@@ -70,4 +70,4 @@ Execute the train.py script located in the ./experiments directory. Make sure to
 
 ## Acknowledgement
 
-This code is based on the implementation of [Time2State](https://github.com/Lab-ANT/Time2State)
+This code is based on the implementation of [Time2State](https://github.com/Lab-ANT/Time2State).
