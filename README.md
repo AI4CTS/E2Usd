@@ -67,3 +67,7 @@ After downloading the datasets, move them to the '\data' directory, ensuring the
 ## Training command
 
 Execute the train.py script located in the ./experiments directory. Make sure to specify the dataset you want to use for the experiment within the main function.
+
+## Acknowledgement
+
+This code is based on the implementation of [Time2State](https://github.com/Lab-ANT/Time2State)
