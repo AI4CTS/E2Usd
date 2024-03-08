@@ -68,6 +68,21 @@ After downloading the datasets, move them to the '\data' directory, ensuring the
 
 Execute the train.py script located in the ./experiments directory. Make sure to specify the dataset you want to use for the experiment within the main function.
 
-## Acknowledgement
+## Supplementary Study Between E2Usd and FLOSS
 
-This code is based on the implementation of [Time2State](https://github.com/Lab-ANT/Time2State).
+We provide a supplementary study between E2Usd and FLOSS, please refer to the [Supplementary Study Between E2Usd and FLOSS](Supplementary Study Between E2Usd and FLOSS.pdf). We recommend downloading the PDF to a local viewer for better readability.
+
+
+## Acknowledgements
+
+This work leverages the [Time2State](https://github.com/Lab-ANT/Time2State) implementation as its foundation.
+
+Our gratitude extends to the authors of the following studies for making their datasets publicly available:
+- [UCRSEG](https://doi.org/10.1109/ICDM.2017.21)
+- [Synthetic](https://dl.acm.org/doi/abs/10.1145/3588697)
+- [MoCap](https://dl.acm.org/doi/abs/10.1145/2588555.2588556)
+- [ActRecTut](https://dl.acm.org/doi/abs/10.1145/2499621)
+- [PAMAP2](https://doi.org/10.1109/ISWC.2012.13)
+- [USCHAD](https://doi.org/10.1145/2370216.2370438)
+
+Special thanks are also due to [Prof. Eamonn Keogh](https://www.cs.ucr.edu/~eamonn/) for his valuable feedback on our work.
