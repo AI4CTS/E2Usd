@@ -70,7 +70,7 @@ Execute the train.py script located in the ./experiments directory. Make sure to
 
 ## Supplementary Study Between E2Usd and FLOSS
 
-We provide a supplementary study between E2Usd and FLOSS, please refer to the [Supplementary Study Between E2Usd and FLOSS](Supplementary Study Between E2Usd and FLOSS.pdf). We recommend downloading the PDF to a local viewer for better readability.
+We provide a supplementary study between E2Usd and FLOSS, please refer to the [Supplementary Study Between E2Usd and FLOSS](Supplementary_Study_Between_E2Usd_and_FLOSS.pdf). We recommend downloading the PDF to a local viewer for better readability.
 
 
 ## Acknowledgements
