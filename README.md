@@ -1,13 +1,6 @@
 # E2USD Artifact - WWW 2024
 Welcome to the artifact documentation for our paper, **E2Usd: Efficient-yet-effective Unsupervised State Detection for Multivariate Time Series**, accepted by the research tracks of The Web Conference 2024. This documentation outlines the steps required to reproduce our work.
 
-
-## Appendix
-For a more comprehensive understanding of our work, including detailed dataset descriptions, implementation specifics, an impact assessment of the Energy-based Frequency Compressor, additional NMI results for component study, and parameter sensitivity study, please refer to the [Appendix](Appendix.pdf). We recommend downloading the PDF to a local viewer for better readability.
-
-## Hardware information
-Our experiments were conducted on a server equipped with an NVIDIA Quadro RTX 8000 GPU and an Intel Xeon Gold 5215 CPU (2.50GHz). For MCU deployment, we employed an STM32H747 device with a 480 MHz Arm Cortex-M7 core, 2 MB Flash memory, and 1 MB RAM.
-
 ## Library Dependencies
 To run our code, we developed it using Python 3.9.18. You can install the remaining dependencies by executing the following command:
 ```bash
