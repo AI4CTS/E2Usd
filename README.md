@@ -1,5 +1,7 @@
 # E2USD Artifact - WWW 2024
-Welcome to the artifact documentation for our paper, **E2Usd: Efficient-yet-effective Unsupervised State Detection for Multivariate Time Series**, accepted by the research tracks of The Web Conference 2024. This is currently a preliminary release of an informal draft version, which may have minor differences or issues. The official version will be released soon.
+Welcome to the artifact documentation for our paper, **E2Usd: Efficient-yet-effective Unsupervised State Detection for Multivariate Time Series**, accepted by the research tracks of The Web Conference 2024.
+
+This is currently a preliminary release of an informal draft version, which may have minor differences or issues. The official version will be released soon.
 
 ## Library Dependencies
 To run our code, we developed it using Python 3.9.18. You can install the remaining dependencies by executing the following command:
